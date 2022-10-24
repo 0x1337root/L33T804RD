@@ -35,9 +35,7 @@ def on_press(key):
 
     elif key == pynput.keyboard.KeyCode.from_char("q"):
         pynput.keyboard.Controller().press(pynput.keyboard.Key.backspace)
-        pynput.keyboard.Controller().release(pynput.keyboard.Key.backspace)
         pynput.keyboard.Controller().press('Q')
-        pynput.keyboard.Controller().release('Q')
 
     elif key == pynput.keyboard.KeyCode.from_char("w"):
         pynput.keyboard.Controller().press(pynput.keyboard.Key.backspace)
